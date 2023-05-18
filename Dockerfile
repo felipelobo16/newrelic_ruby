@@ -23,7 +23,7 @@ RUN bundle install
 RUN yarn install --check-files
 ## Install Pacotes
 
-ENV NEW_RELIC_APP_NAME='ruby' \
+ENV NEW_RELIC_APP_NAME='ruby_workshop' \
     NEW_RELIC_LICENSE_KEY="" \
     NEW_RELIC_SPAN_EVENTS_MAX_SAMPLES_STORED=1000 \
     NEW_RELIC_DISTRIBUTED_TRACING_ENABLED=true
